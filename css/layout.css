@@ -1,0 +1,149 @@
+.container {
+    width: 1638px;
+    /* height: 1600px; */
+    position: relative;
+    background: red;
+}
+.header-wrapper {
+    width: 100%;
+    /* height: 345px;             */
+    position: absolute;
+    background: #212429;
+    top: 0;
+    left: 0;
+    opacity: 1; 
+}
+
+.header-view {
+    width: 1530px;
+    background: #212429;
+    height: 345px;
+    margin-left: 54px;
+    margin-right: 54px;
+}
+
+.navbar-wrapper {
+    background: whitesmoke;
+    height: 55px;
+}
+
+.navbar {
+    float: left;
+    background: aqua;
+    width: 720px;
+    height: 100%;
+}
+
+.logo-icon-wrapper {
+    float: right;
+    background: aquamarine;
+    width: 810px;
+    height: 100%;
+}
+
+.logo {
+    float: left;
+    background: bisque;
+    width: 151px;
+    height: 100%;
+}
+.icon {
+    float: right;
+    width: 659px;
+    background: brown;
+    height: 100%;
+
+}
+.body-wrapper {
+    width: 1530px;
+    /* height: 1000px; */
+    background: #f9f9fb;
+    margin: 55px 54px 0 54px; 
+}
+
+.image-newsletter-wrapper {
+    width: 100%;
+    height: 680px;
+    background: cadetblue;
+}
+
+.image-wrapper {
+    width: 100%;
+    height: 581px;
+    background: darkgoldenrod;
+}
+
+.newsletter-wrapper {
+    width: 100%;
+    height: 99px;
+    background: darkcyan;
+}
+
+.body-sidebar-wrapper {
+    width: 100%;
+    margin-top: 61px;
+}
+
+.content-wrapper {
+    width: 1140px;
+    background: #f9f9fb;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.image-description-wrapper {
+    background: green;
+    margin-bottom: 62px;
+}
+.top-wrapper {
+    width:100%;
+    background: darkturquoise;
+}
+
+.bottom-wrapper {
+    width:100%;
+    background: firebrick;
+}
+
+.description-wrapper {
+    width:100%;
+    background: fuchsia;
+}
+
+.social-share-wrapper {
+    width:100%;
+    background: greenyellow;
+}
+
+.sidebar-wrapper {
+    width: 360px;
+    float: right;
+    background: deeppink;
+}
+
+.footer-wrapper {
+    width: 1638px;
+    height: 50px;
+    margin-left: -54px;
+    position: absolute;
+    background: #212429;
+    bottom: 0px;
+}
+
+.footer-content {
+    float: left;
+    height: 50px;
+    background: #212429;
+    color: white;
+    padding-left: 54px; 
+    
+}
+
+.footer-content-r {
+    width: 765px;
+    float: right;
+    height: 50px;
+    color: white;
+    background: #212429; 
+    padding-left: 54px; 
+}
