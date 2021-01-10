@@ -1,0 +1,201 @@
+.navbar-right {
+    display: none;
+    float: left;
+    padding-left: 20px;
+    padding-top: 19px;
+    color: white;
+}
+
+.navbar-right li {
+    display: inline;
+    padding-right: 20px;
+}
+
+.navbar-left:hover +.navbar-right{
+    display: block;
+}
+
+.navbar img:hover .navbar-menu {
+    display: block;
+ }
+
+ .logo img {
+    padding-top:20px;
+    padding-bottom: 19px;
+}
+
+.icon img{
+    width: 14px;
+    height: 14px;
+}
+
+.icons-first {
+    border-left: solid 1px #3c3c3c;
+    border-right: solid 1px #3c3c3c;
+    padding-left: 17px;
+    padding-right: 18px;
+    padding-top: 20px;
+}
+
+.icons-first:hover {
+    background: rgb(0, 183, 255);
+}
+
+.icons-rest {
+    border-right: solid 1px  #3c3c3c;
+    padding-left: 17px;
+    padding-right: 18px;
+    padding-top: 20px;
+}
+
+.icons-rest:hover {
+    background: rgb(0, 183, 255);
+}
+
+.newsletter-left {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.newsletter-button {
+    text-align: center;
+    padding-top: 15px;
+    background: #212121;
+}
+
+.newsletter-button:hover {
+    background: rgb(0, 183, 255);
+}
+
+.quote-description-wrapper {
+    text-align: justify;
+    text-align-last: center;
+}
+
+.quote {
+    padding: 68px 60px 60px 63px;
+}
+
+.image-over-quote:hover{
+    background: rgb(0, 183, 255);
+}
+
+.image-over-des:hover{
+    background: rgb(0, 183, 255);
+}
+
+.image-over1:hover{
+    background: rgb(0, 183, 255);
+}
+
+.image-over2:hover{
+    background: rgb(0, 183, 255);
+}
+
+.image-over-music:hover{
+    background: rgb(0, 183, 255);
+}
+
+.bottom-wrapper {
+    text-align: justify;
+    text-align-last: center;
+    padding: 68px 60px 0 63px;
+}
+
+.read-more:hover {
+    color: rgb(0, 183, 255);
+}
+
+.vertical-line-l {
+    border-left: 1px solid #d7d7d7;
+}
+
+.vertical-line-r {
+    border-left: 1px solid #d7d7d7;
+}
+
+.straight-line {
+    border-top: 2px solid #f2f2f4;
+}
+
+.username-date-wrapper span {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.reaction-icon-state img:hover{
+    width: 20px;
+    height: 20px;
+}
+
+.search-icon:hover {
+    background: rgb(0, 183, 255);
+}
+
+.image-ad img{
+    padding-top: 40px;
+}
+
+.categories-wrapper {
+    padding-top: 40px;
+}
+
+.categories-wrapper li:hover {
+    color: rgb(0, 183, 255);
+}
+
+.post-wrapper {
+    padding-top: 40px;
+}
+
+.post-wrapper ul li {
+    padding-top: 30px;
+}
+
+.post-header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.post-content-wrapper {
+    padding-bottom: 60px;
+}
+
+.post-title:hover {
+    color: rgb(0, 183, 255);
+}
+
+.post-date {
+    color: #a7a7a7;
+}
+
+.icons-list {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-blog-header {
+    text-align: left;
+}
+
+.about-blog-content {
+    padding-top: 40px;
+    padding-bottom: 14px;
+}
+
+.tweets-content {
+    padding-top: 40px;
+}
+
+.tweets-content li {
+    padding-bottom: 40px;
+}
+
+.comment-content {
+    padding-top: 40px;
+}
+
+.comment-content li {
+    padding-bottom: 40px;
+}
+
