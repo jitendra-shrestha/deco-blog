@@ -54,16 +54,12 @@
 }
 
 .newsletter-left {
-    font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 2px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .newsletter-button {
     text-align: center;
-    padding-top: 15px;
-    letter-spacing: 4px;
+    padding-top: 8px;
     background: #212121;
     font-family: 'Hind', sans-serif;
 }
@@ -77,9 +73,9 @@
     text-align-last: center;
 }
 
-.quote {
+/* .quote {
     padding: 68px 60px 60px 63px;
-}
+} */
 
 .image-over-quote:hover{
     background: rgb(0, 183, 255);
@@ -97,15 +93,19 @@
     background: rgb(0, 183, 255);
 }
 
+.image-over22:hover{
+    background: rgb(0, 183, 255);
+}
+
 .image-over-music:hover{
     background: rgb(0, 183, 255);
 }
 
-.bottom-wrapper {
+/* .bottom-wrapper {
     text-align: justify;
     text-align-last: center;
     padding: 68px 60px 0 63px;
-}
+} */
 
 .read-more:hover {
     color: rgb(0, 183, 255);
@@ -127,11 +127,11 @@
     font-family: 'Hind', sans-serif;
 }
 
-.content-title {
+/* .content-title {
     font-size: 31px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-}
+} */
 
 
 .username-date-wrapper span {
@@ -141,9 +141,10 @@
 }
 
 .content-description {
-    font-size: medium;
+    /* font-size: medium; */
     font-family: 'Hind', sans-serif;
 }
+
 .more-button,.quote {
     letter-spacing: 2px;
     font-weight: bold;
@@ -154,10 +155,6 @@
     font-family: 'Hind', sans-serif;
 }
 
-.reaction-icon-state img:hover{
-    width: 20px;
-    height: 20px;
-}
 
 .sidebar-wrapper {
     font-family: 'Montserrat', sans-serif;
