@@ -33,9 +33,6 @@
 .icons-first {
     border-left: solid 1px #3c3c3c;
     border-right: solid 1px #3c3c3c;
-    padding-left: 17px;
-    padding-right: 18px;
-    padding-top: 20px;
 }
 
 .icons-first:hover {
@@ -44,9 +41,6 @@
 
 .icons-rest {
     border-right: solid 1px  #3c3c3c;
-    padding-left: 17px;
-    padding-right: 18px;
-    padding-top: 20px;
 }
 
 .icons-rest:hover {
@@ -59,9 +53,14 @@
 
 .newsletter-button {
     text-align: center;
-    padding-top: 8px;
     background: #212121;
     font-family: 'Hind', sans-serif;
+}
+
+.n-btn {
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 .newsletter-button:hover {
@@ -162,7 +161,7 @@
 
 .categories-header,.post-header {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 11px;
 }
 
 .search-icon:hover {
@@ -198,7 +197,7 @@
     padding-bottom: 60px;
 }
 
-.post-title:hover {
+.post-title:hover a {
     color: rgb(0, 183, 255);
 }
 

@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deco Blog</title>
     <link rel="stylesheet" href="css/reset.css">
@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
         <div class="container">
-            <div class="header-wrapper ">
+            <div class="header-wrapper">
                 <div class="header-view">
                     <div class="navbar-wrapper">
                         <div class="navbar">
@@ -33,65 +32,67 @@
                         </div>
                         <div class="logo-icon-wrapper">
                             <div class="logo">
-                                <a href="#"> <img src="images/logo.jpg" alt="logo"> </a> 
+                                <a href="#" title="DECO BLOG"> <img src="images/logo.jpg" alt="logo"> </a> 
                                <!-- 151px * 16px -->
                             </div>
                             <div class="icon">
                                 <!-- 659px -->
-                                <div class="icons-first">
-                                    <a href="#"> <img src="images/wifi-active.svg" alt="wifi-deactive"> </a>
-                                </div>
-                                <div class="icons-rest">
-                                    <a href="#"> <img src="images/twitter-active.svg" alt="tumblr-logo-active"> </a> 
-                                </div>
-                                <div class="icons-rest">
-                                    <a href="#"> <img src="images/tumblr-logo-active.svg" alt="tumblr-logo-active"> </a>
-                                </div>
-                                <div class="icons-rest">
-                                    <a href="#"> <img src="images/facebook-active.svg" alt="facebook-active"> </a>
-                                </div>
-                                <div class="icons-rest">
-                                    <a href="#"> <img src="images/magnifying-glass-active.svg" alt="magnifying-glass-active"></a>
-                                </div>
+                                <ul class="icons">
+                                    <li class="icons-first">
+                                        <a href="#" class="btn" title="wifi"> <img src="images/wifi-active.svg" alt="wifi-active"></a>
+                                    </li>
+                                    <li class="icons-rest">
+                                        <a href="#" class="btn" title="twitter"> <img src="images/twitter-active.svg" alt="tumblr-logo-active"> </a> 
+                                    </li>
+                                    <li class="icons-rest">
+                                        <a href="#" class="btn" title="tumbler"> <img src="images/tumblr-logo-active.svg" alt="tumblr-logo-active"> </a>
+                                    </li>
+                                    <li class="icons-rest">
+                                        <a href="#" class="btn" title="facebook"> <img src="images/facebook-active.svg" alt="facebook-active"> </a>
+                                    </li>
+                                    <li class="icons-rest">
+                                        <a href="#" class="btn" title="search"> <img src="images/magnifying-glass-active.svg" alt="magnifying-glass-active"></a>
+                                    </li>
+                                </ul>
                             </div>
+                        </div>
+                    </div>
+                    <div class="image-newsletter-wrapper"> 
+                        <div class="image-wrapper">
+                                <img src="images/main_image.jpg" alt="main-image">
+                        </div>
+                        <div class="newsletter-wrapper">
+                                <div class="newsletter-left">
+                                    SIGNUP TO NEWSLETTER
+                                </div>
+                                <div class="newsletter-right">
+                                    <div class="newsletter-form">
+                                        <input type="text" placeholder="YOUR NAME">
+                                        <input type="text" placeholder="YOUR EMAIL ADDRESS">
+                                    </div>
+                                    <div class="newsletter-button">
+                                        <a href="" class="n-btn" title="subscribe now">
+                                            SUBSCRIBE NOW
+                                        </a>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="header-wrapper body-wrapper">
-                <div class="image-newsletter-wrapper">
-                    <div class="image-wrapper">
-                            <img src="images/main_image.jpg" alt="main-image">
-                    </div>
-                    <div class="newsletter-wrapper">
-                            <div class="newsletter-left">
-                                SIGNUP TO NEWSLETTER
-                            </div>
-                            <div class="newsletter-right">
-                                <div class="newsletter-form">
-                                    <input type="text" value="YOUR NAME">
-                                    <input type="text" value="YOUR EMAIL ADDRESS">
-                                </div>
-                                <div class="newsletter-button">
-                                    <a href="">
-                                        SUBSCRIBE NOW
-                                    </a>
-                                </div>
-                            </div>
-                    </div>
-                </div>
+            <div class="body-wrapper">     
                 <div class="body-sidebar-wrapper">
                     <div class="content-wrapper">
                         <ul>
                             <li>
                                 <div class="image-description-wrapper">
                                     <div class="top-wrapper">
-                                            <img class="blog-image1"src="images/blog-image1.jpg" alt="image">
+                                            <img class="blog-image1" src="images/blog-image1.jpg" alt="image">
                                             <div class="image-over1">
-                                                <a href="#"><img src="images/pinterest.svg" alt="image" width="19px" height="25px"></a>
+                                                <a href="#" title="pinterest"><img src="images/pinterest.svg" alt="image" ></a>
                                             </div>
                                             <div class="image-over2">
-                                                <a href="#"> <img src="images/landscape.svg" alt="image" width="19px" height="25px"> </a>
+                                                <a href="#" title="gallery"> <img src="images/landscape.svg" alt="image" > </a>
                                             </div>
                                     </div>
                                     <div class="bottom-wrapper">
@@ -100,7 +101,7 @@
                                                     TRAVELLING
                                                 </div>
                                                 <div class="content-title">
-                                                    BE THE ONE TO STAND OUT IN THE CROWED
+                                                    <h1>BE THE ONE TO STAND OUT IN THE CROWED</h1>
                                                 </div>
                                                 <div class="username-date-wrapper">
                                                     <span><img src="images/user.svg" alt="user"></span>  DIKE ACALISTER <span><img src="images/calendar.svg" alt="calendar"></span> JANUARY 16, 2016
@@ -111,7 +112,7 @@
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sapiente corrupti, odio, iure quia animi dolore officia quibusdam ipsam asperiores magnam eum, aut dolorum ut eveniet ullam excepturi reiciendis rem.
                                                 </div>
                                                 <div class="more-button">
-                                                        <span class="vertical-line-l"></span>&nbsp&nbsp <a href="#" class="read-more"> READ MORE </a> &nbsp&nbsp<span class="vertical-line-r"></span>
+                                                        <span class="vertical-line-l"></span>&nbsp; &nbsp; <a href="#" class="read-more"> READ MORE </a> &nbsp; &nbsp;<span class="vertical-line-r"></span>
                                                 </div>
                                                 <div class="straight-line"></div>
                                         </div>
@@ -124,7 +125,7 @@
                                             <div class="share-icons-wrapper">
                                                 <span class="share-icons-state"><img src="images/pinterest-logo.svg" alt="pinterest-logo"> </span>
                                                 <span class="share-icons-state"><img src="images/twitter-deactive.svg" alt="twitter">  </span>
-                                                <span class="share-icons-state"> <img src="images/facbook-deactive.svg" alt="facebook"> </span>
+                                                <span class="share-icons-state"><img src="images/facbook-deactive.svg" alt="facebook"> </span>
                                                 <span class="share-icons-state"><img src="images/dribbble-logo.svg" alt="dribble"></span>
                                             </div>
                                         </div>
@@ -134,7 +135,7 @@
                             <li>
                                 <div class="image-description-wrapper">
                                     <div class="top-wrapper">
-                                            <div class="left-image">
+                                            <!-- <div class="left-image">
                                                 <div class="first-image"><img src="images/blog-image2-1.jpg" alt="image1" ></div>
                                                 <div class="second-image"><img src="images/blog-image2-2.jpg" alt="image1"></div>
                                             </div>
@@ -144,9 +145,9 @@
                                                     <div class="fourth-image"><img src="images/blog-image2-4.jpg" alt="image1" ></div>
                                                     <div class="fifth-image"><img src="images/blog-image2-5.jpg" alt="image1" ></div>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                             <div class="image-over22">
-                                                <a href="#"><img src="images/landscape.svg" alt="image" width="19px" height="25px"> </a>
+                                                <a href="#" title="gallery" ><img src="images/landscape.svg" alt="image" > </a>
                                             </div>
                                     </div>
                                     <div class="bottom-wrapper">
@@ -155,7 +156,7 @@
                                                     FASHION & ADVENTURE
                                                 </div>
                                                 <div class="content-title">
-                                                    FASHION AND ADVENTURE IN WORLD
+                                                    <h1>FASHION AND ADVENTURE IN WORLD </h1>
                                                 </div>
                                                 <div class="username-date-wrapper">
                                                     <span><img src="images/user.svg" alt="user"></span>  JHONE ALBERT <span><img src="images/calendar.svg" alt="calendar"></span> JANUARY 16, 2016
@@ -166,7 +167,7 @@
                                                     apiente corrupti, odio, iure quia animi dolore officia quibusdam ipsam asperiores magnam eum, aut dolorum ut eveniet ullam excepturi reiciendis rem.
                                                 </div>
                                                 <div class="more-button">
-                                                        <span class="vertical-line-l"></span>&nbsp&nbsp <a href="#" class="read-more"> READ MORE </a> &nbsp&nbsp<span class="vertical-line-r"></span>
+                                                        <span class="vertical-line-l"></span>&nbsp; &nbsp; <a href="#" class="read-more"> READ MORE </a> &nbsp; &nbsp; <span class="vertical-line-r"></span>
                                                 </div>
                                                 <div class="straight-line"></div>
                                         </div>
@@ -197,16 +198,16 @@
                                         APOLO OHNO
                                     </div>
                                     <div class="image-over-quote">
-                                        <a href="#"> <img src="images/left-quote.svg" alt="image" width="19px" height="25px"> </a>
+                                        <a href="#" title="quote"> <img src="images/left-quote.svg" alt="image" > </a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="image-description-wrapper">
                                     <div class="top-wrapper">
-                                        <iframe src="https://player.vimeo.com/video/59474226?color=#3a3c49" width="1139" height="489" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> 
+                                        <iframe class="video-player" src="https://player.vimeo.com/video/59474226?color=#3a3c49"   allow="autoplay; fullscreen" allowfullscreen></iframe> 
                                         <div class="image-over-music">
-                                            <a href="#"> <img src="images/landscape.svg" alt="image" width="19px" height="25px"> </a>
+                                            <a href="#" title="gallery"> <img src="images/landscape.svg" alt="image" > </a>
                                         </div>
                                     </div>
                                     <div class="bottom-wrapper">
@@ -215,7 +216,7 @@
                                                     TRAVELLING
                                                 </div>
                                                 <div class="content-title">
-                                                    BEN STRURGULEWSKI CINEMATOGRAPHY REEL :: STURGEFILM ADVENTURE & TRAVELLING 2016
+                                                   <h1> BEN STRURGULEWSKI CINEMATOGRAPHY REEL :: STURGEFILM ADVENTURE & TRAVELLING 2016 </h1> 
                                                 </div>
                                                 <div class="username-date-wrapper">
                                                     <span><img src="images/user.svg" alt="user"></span>  DIKE ACALISTER <span><img src="images/calendar.svg" alt="calendar"></span> JANUARY 16, 2016
@@ -226,7 +227,7 @@
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sapiente corrupti, odio, iure quia animi dolore officia quibusdam ipsam asperiores magnam eum, aut dolorum ut eveniet ullam excepturi reiciendis rem.
                                                 </div>
                                                 <div class="more-button">
-                                                        <span class="vertical-line-l"></span>&nbsp&nbsp <a href="#" class="read-more"> READ MORE </a> &nbsp&nbsp<span class="vertical-line-r"></span>
+                                                        <span class="vertical-line-l"></span>&nbsp; &nbsp; <a href="#" class="read-more"> READ MORE </a> &nbsp; &nbsp; <span class="vertical-line-r"></span>
                                                 </div>
                                                 <div class="straight-line"></div>
                                         </div>
@@ -248,13 +249,13 @@
                             </li>
                             <li>
                                 <div class="image-description-wrapper">
-                                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/290812196&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/l2share42" title="L2Share♫42" target="_blank" style="color: #cccccc; text-decoration: none;">L2Share♫42</a> · <a href="https://soundcloud.com/l2share42/playing-with-fire" title="BLACKPINK - PLAYING WITH FIRE" target="_blank" style="color: #cccccc; text-decoration: none;">BLACKPINK - PLAYING WITH FIRE</a></div>
+                                    <iframe class="sound-player" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/290812196&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/l2share42" title="L2Share♫42" target="_blank" style="color: #cccccc; text-decoration: none;">L2Share♫42</a> · <a href="https://soundcloud.com/l2share42/playing-with-fire" title="BLACKPINK - PLAYING WITH FIRE" target="_blank" style="color: #cccccc; text-decoration: none;">BLACKPINK - PLAYING WITH FIRE</a></div>
                                 </div>
                             </li>
                             <li>
                                 <div class="image-description-wrapper">
                                     <div class="image-over-des">
-                                        <a href="#"><img src="images/pencil.svg" alt="image" width="19px" height="25px"></a>
+                                        <a href="#" title="edit"><img src="images/pencil.svg" alt="image" ></a>
                                     </div>
                                     <div class="bottom-wrapper">
                                         <div class="description-wrapper">
@@ -262,7 +263,7 @@
                                                     LIFESTYLE
                                                 </div>
                                                 <div class="content-title">
-                                                    MY JOURNEY TOWARDS A MINIMALIST LIFESTYLE
+                                                    <h1> MY JOURNEY TOWARDS A MINIMALIST LIFESTYLE </h1>
                                                 </div>
                                                 <div class="username-date-wrapper">
                                                     <span><img src="images/user.svg" alt="user"></span>  KENDRICK LAMAR <span><img src="images/calendar.svg" alt="calendar"></span> JANUARY 16, 2016
@@ -277,7 +278,7 @@
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sapiente corrupti, odio, iure quia animi dolore officia quibusdam ipsam asperiores magnam eum, aut dolorum ut eveniet ullam excepturi reiciendis rem.
                                                 </div>
                                                 <div class="more-button">
-                                                        <span class="vertical-line-l"></span>&nbsp&nbsp <a href="#" class="read-more"> READ MORE </a> &nbsp&nbsp<span class="vertical-line-r"></span>
+                                                        <span class="vertical-line-l"></span>&nbsp; &nbsp; <a href="#" class="read-more"> READ MORE </a> &nbsp; &nbsp; <span class="vertical-line-r"></span>
                                                 </div>
                                                 <div class="straight-line"></div>
                                         </div>
@@ -304,7 +305,7 @@
                                         <br><br>
                                         HTTPS://DRIBBBLE.COM/HOTS/2442963-BLOG-UI-KIT-1170PX-GRID-READY/ATTACHMENTS/475369 
                                         <div class="image-over-quote">
-                                            <a href="#"> <img src="images/left-quote.svg" alt="image" width="19px" height="25px"> </a>
+                                            <a href="#" title="quote"> <img src="images/left-quote.svg" alt="image" > </a>
                                         </div>
                                     </div>
                                 </div>
@@ -314,10 +315,10 @@
                     <div class="sidebar-wrapper">
                         <div class="search-bar">
                             <div class="input-form">
-                                <input type="text" value=" SEARCH">
+                                <input type="text" placeholder=" SEARCH">
                             </div>
                             <div class="search-icon">
-                                <a href="#"> <img src="images/magnifying-glass-active.svg" alt="search"> </a>
+                                <a href="#" title="search"> <img src="images/magnifying-glass-active.svg" alt="search"> </a>
                             </div>
                         </div>
                         <div class="image-ad">
@@ -325,7 +326,7 @@
                         </div>
                         <div class="categories-wrapper">
                             <div class="categories-header">
-                                CATEGORIES
+                                <h1> CATEGORIES </h1>
                             </div>
                             <div class="straight-line"></div>
                             <ul class="categories-content">
@@ -399,7 +400,7 @@
                         </div>
                         <div class="post-wrapper">
                             <div class="post-header">
-                                LATEST POST
+                                <h1> LATEST POST </h1>
                             </div>
                             <div class="straight-line"></div>
                             <ul class="post-contents">
@@ -410,10 +411,10 @@
                                         </div>
                                         <div class="post-description">
                                             <div class="post-title">
-                                                JURNEY TOWARDS A LIFESTYLE
+                                                <a href="#"> JURNEY TOWARDS A LIFESTYLE </a>
                                             </div>
                                             <div class="post-date">
-                                                JAN. 16 2015 &nbsp&nbsp LIKE 255
+                                                JAN. 16 2015 &nbsp; &nbsp; LIKE 255
                                             </div>
                                         </div>
                                     </div>
@@ -426,10 +427,10 @@
                                         </div>
                                         <div class="post-description">
                                             <div class="post-title">
-                                                FASHIONABLE SHOES FOR MEN
+                                                <a href="#"> FASHIONABLE SHOES FOR MEN </a>
                                             </div>
                                             <div class="post-date">
-                                                JAN. 18 2015 &nbsp&nbsp LIKE 26
+                                                JAN. 18 2015 &nbsp; &nbsp; LIKE 26
                                             </div>
                                         </div>
                                     </div>
@@ -442,10 +443,10 @@
                                         </div>
                                         <div class="post-description">
                                             <div class="post-title">
-                                                REALLY AWESOME'S ADVENTURE
+                                                <a href="#"> REALLY AWESOME'S ADVENTURE </a>
                                             </div>
                                             <div class="post-date">
-                                                JAN. 23 2015 &nbsp&nbsp LIKE 23
+                                                JAN. 23 2015 &nbsp; &nbsp; LIKE 23
                                             </div>
                                         </div>
                                     </div>
@@ -458,10 +459,10 @@
                                         </div>
                                         <div class="post-description">
                                             <div class="post-title">
-                                                MAN HUNTING IN JUNGLE
+                                                <a href="#"> MAN HUNTING IN JUNGLE </a>
                                             </div>
                                             <div class="post-date">
-                                                JAN. 16 2015 &nbsp&nbsp LIKE 29
+                                                JAN. 16 2015 &nbsp; &nbsp; LIKE 29
                                             </div>
                                         </div>
                                     </div>
@@ -471,11 +472,11 @@
                         </div>
                         <div class="icons-list">
                             <ul>
-                                <li> <img src="images/twitter-deactive.svg" alt="twitter"></li>
-                                <li> <img src="images/facbook-deactive.svg" alt="facebook"></li>
-                                <li> <img src="images/dribbble-logo.svg" alt="dribble"></li>
-                                <li> <img src="images/pinterest-logo.svg" alt="pinterest"></li>
-                                <li> <img src="images/linkedin.svg" alt="linkedin"></li>
+                                <li> <a href="#" title="twitter"> <img src="images/twitter-deactive.svg" alt="twitter"> </a> </li>
+                                <li> <a href="#" title="facebook"> <img src="images/facbook-deactive.svg" alt="facebook"> </a> </li>
+                                <li> <a href="#" title="dribble"> <img src="images/dribbble-logo.svg" alt="dribble"> </a> </li>
+                                <li> <a href="#" title="pinterest"> <img src="images/pinterest-logo.svg" alt="pinterest"> </a> </li>
+                                <li> <a href="#" title="linkedin"> <img src="images/linkedin.svg" alt="linkedin"> </a> </li>
                             </ul>
                         </div>
                         <div class="image-slider">
@@ -485,105 +486,106 @@
                             <img src="images/side-facebook.jpg" alt="side-facebook">
                         </div>
                     </div>
-                    <div class="footer-wrapper">
-                        <div class="footer-top">
-                                <div class="footer-content">
-                                    <div class="about-blog">
-                                        <div class="about-blog-header">
-                                            ABOUT BLOG
-                                        </div>
-                                        <div class="about-blog-content">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        </div>
-                                        <div class="about-blog-image">
-                                            <img src="images/footer-image.jpg" alt="footer-image">
-                                        </div>
-    
-                                    </div>
-                                    <div class="latest-tweets">
-                                        <div class="latest-tweets-header">
-                                            LATEST TWEETS
-                                        </div>
-                                        <ul class="tweets-content">
-                                            <li>
-                                                <img src="images/twitter-active.svg" alt="twitter-logo" height="14px" width="14px"> @Twitter@magicalrebekah
-                                                <br>
-                                                Developer Advocate @heyval isaiyou knows
-                                                <br>
-                                                the very well is about things.
-                                            </li>
-                                            <li>
-                                                <img src="images/twitter-active.svg" alt="twitter-logo" height="14px" width="14px"> @Twitter@magicalrebekah
-                                                <br>
-                                                Developer Advocate @heyval isaiyou knows
-                                                <br>
-                                                the very well is about things.
-                                            </li>
-                                        </ul>
-                                    </div>
+                </div>
+            </div>
+            <div class="footer-wrapper">
+                <div class="footer-top">
+                        <div class="footer-content">
+                            <div class="about-blog">
+                                <div class="about-blog-header">
+                                    ABOUT BLOG
                                 </div>
-                                <div class="footer-content-r">
-                                    <div class="follow-me">
-                                        <div class="follow-me-header">
-                                            FOLLOW ME INSTAGRAM
-                                        </div>
-                                        <div class="instagram-content">
-                                            <div class="first">
-                                                <div class="top-image">
-                                                    <img src="images/instagram.svg" alt="instagram">
-                                                </div>
-                                                <div class="bottom-image">
-                                                    <img src="images/instagram.svg" alt="instagram">
-                                                </div>
-                                            </div>
-                                            <div class="second">
-                                                <div class="third">
-                                                    <div class="top-image">
-                                                        <img src="images/instagram.svg" alt="instagram">
-                                                    </div>
-                                                    <div class="bottom-image">
-                                                        <img src="images/instagram.svg" alt="instagram">
-                                                    </div>
-                                                </div>
-                                                <div class="fourth">
-                                                    <div class="top-image">
-                                                        <img src="images/instagram.svg" alt="instagram">
-                                                    </div>
-                                                    <div class="bottom-image">
-                                                        <img src="images/instagram.svg" alt="instagram">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="latest-comment">
-                                        <div class="latest-comment-header">
-                                            LATEST COMMENT
-                                        </div>
-                                        <ul class="comment-content">
-                                            <li>
-                                                From Alex :
-                                                <br>
-                                                Developer Advocate @heyval isaiyou knows
-                                                <br>
-                                                the very well is about things.
-                                            </li>
-                                            <li>
-                                                From Jhon Doe :
-                                                <br>
-                                                Developer Advocate @heyval isaiyou knows
-                                                <br>
-                                                the very well is about things.
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <div class="about-blog-content">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                 </div>
-                        </div> 
-                        <div class="footer-bottom">
-                                     @ 2015 COPYRIGHT . ALL RIGHT RESERVED BY AWESOME THEME | TERMS POLICY | DISCLAIMER   
+                                <div class="about-blog-image">
+                                    <img src="images/footer-image.jpg" alt="footer-image">
+                                </div>
+
+                            </div>
+                            <div class="latest-tweets">
+                                <div class="latest-tweets-header">
+                                    LATEST TWEETS
+                                </div>
+                                <ul class="tweets-content">
+                                    <li>
+                                        <img src="images/twitter-active.svg" alt="twitter-logo" > @Twitter@magicalrebekah
+                                        <br>
+                                        Developer Advocate @heyval isaiyou knows
+                                        <br>
+                                        the very well is about things.
+                                    </li>
+                                    <li>
+                                        <img src="images/twitter-active.svg" alt="twitter-logo" > @Twitter@magicalrebekah
+                                        <br>
+                                        Developer Advocate @heyval isaiyou knows
+                                        <br>
+                                        the very well is about things.
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
+                        <div class="footer-content-r">
+                            <div class="follow-me">
+                                <div class="follow-me-header">
+                                    FOLLOW ME INSTAGRAM
+                                </div>
+                                <div class="instagram-content">
+                                    <div class="first">
+                                        <div class="top-image">
+                                            <img src="images/instagram.svg" alt="instagram">
+                                        </div>
+                                        <div class="bottom-image">
+                                            <img src="images/instagram.svg" alt="instagram">
+                                        </div>
+                                    </div>
+                                    <div class="second">
+                                        <div class="third">
+                                            <div class="top-image">
+                                                <img src="images/instagram.svg" alt="instagram">
+                                            </div>
+                                            <div class="bottom-image">
+                                                <img src="images/instagram.svg" alt="instagram">
+                                            </div>
+                                        </div>
+                                        <div class="fourth">
+                                            <div class="top-image">
+                                                <img src="images/instagram.svg" alt="instagram">
+                                            </div>
+                                            <div class="bottom-image">
+                                                <img src="images/instagram.svg" alt="instagram">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latest-comment">
+                                <div class="latest-comment-header">
+                                    LATEST COMMENT
+                                </div>
+                                <ul class="comment-content">
+                                    <li>
+                                        From Alex :
+                                        <br>
+                                        Developer Advocate @heyval isaiyou knows
+                                        <br>
+                                        the very well is about things.
+                                    </li>
+                                    <li> <div class="sline"></div></li>
+                                    <li>
+                                        From Jhon Doe :
+                                        <br>
+                                        Developer Advocate @heyval isaiyou knows
+                                        <br>
+                                        the very well is about things.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                </div> 
+                <div class="footer-bottom">
+                             @ 2015 COPYRIGHT . ALL RIGHT RESERVED BY AWESOME THEME | TERMS POLICY | DISCLAIMER   
                 </div>
             </div>
         </div>
