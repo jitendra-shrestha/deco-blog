@@ -199,6 +199,9 @@
     height: 200px;
 }
 
+.top-wrapper .left-image,.middle-image {
+    display: none;
+}
 
 
 .image-over1 {
@@ -475,9 +478,11 @@
     background: #212429;
     padding-left: 0px;
     color: #e1e2e2;
+    text-align: center;
 }
 .about-blog img {
     width: 100%;
+    padding-left: 5%;
 }
 .footer-top {
     padding-top: 3.98692%;

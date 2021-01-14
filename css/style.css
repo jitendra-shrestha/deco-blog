@@ -72,10 +72,6 @@
     text-align-last: center;
 }
 
-/* .quote {
-    padding: 68px 60px 60px 63px;
-} */
-
 .image-over-quote:hover{
     background: rgb(0, 183, 255);
 }
@@ -176,7 +172,7 @@
     padding-top: 40px;
 }
 
-.categories-wrapper li:hover {
+.categories-wrapper a:hover {
     color: rgb(0, 183, 255);
 }
 
@@ -201,6 +197,10 @@
     color: rgb(0, 183, 255);
 }
 
+.post-date a:hover {
+    color: rgb(0, 183, 255);
+}
+
 .post-date {
     color: #a7a7a7;
 }
@@ -215,7 +215,7 @@
 }
 
 .about-blog-header {
-    text-align: left;
+    /* text-align: left; */
 }
 
 .about-blog-content {

@@ -932,6 +932,10 @@
         background: #3a3c49;
     }
 
+    .top-wrapper .left-image,.middle-image {
+        display: block;
+    }
+
     .image-over1 img{
         width: 19px;
         height: 25px;
@@ -1074,45 +1078,51 @@
     
     .left-image {
         float: left;
+        width:30%;
+        height: 100%;
+        overflow: hidden;
     }
     
     .first-image img{
-        width: 380px;
+        width: 100%;
         height: 244.5px;
     }
 
     .second-image img{
-        width: 380px;
+        width: 100%;
         height: 244.5px;
     }
     
     .middle-image {
         float: right;
-        width: 760px;
+        width: 70%;
+        height: 489px;
+        overflow: hidden;
     }
     
     .third-image {
         float: left;
-        width: 380px;
+        width: 40%;
     }
 
     .third-image img{
-        width: 380px;
-        height: 493px;
+        width: 100%;
+        height: 489px;
         padding-left: 0px;
     }
     
     .right-image {
         float:right;
-        width: 380px;
+        width: 60%;
+        height: 489px;
     }
     
     .fourth-image img{
-        width: 380px;
+        width: 100%;
         height: 244.5px;
     }
     .fifth-image img{
-        width: 380px;
+        width: 100%;
         height: 244.5px;
     }
     
@@ -1360,6 +1370,7 @@
         background: #212429;
         font-size: 12px;
         overflow: hidden;
+        text-align: left;
     }
     
     .footer-top {
@@ -1382,8 +1393,13 @@
         width: 48.039215%;
     }
 
+    .about-blog-header {
+        text-align: left;
+    }
+
     .about-blog img {
         width: 100%;
+        padding-left: 0;
     }
     
     .latest-tweets {
